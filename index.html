@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>AI ჩათ აპი</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder" defer></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="section">
+    <h2>💬 ჩათი AI-თან</h2>
+    <input type="text" id="chatInput" placeholder="დაწერე რამე (მაგ. გამარჯობა ან 7)">
+    <button id="chatButton" onclick="handleUserInput()" disabled>გაგზავნა</button>
+    <p>AI პასუხი: <span id="chatResponse">...</span></p>
+  </div>
+</body>
+</html>
